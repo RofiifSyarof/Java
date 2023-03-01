@@ -102,12 +102,11 @@ class prak01_22537141014 {
 	  		 	if (sts != 0) // bila data ditemukan
 	  		 		System.out.println("Data " + cariData + " berhasil dihapus sejumlah " + sts + " kali."); 
 	  		 	else // bila data tidak ditemukan
-	  		 		System.out.println("Data " + cariData + " TIDAK ditemukan");
-				
+	  		 		System.out.println("Data " + cariData + " TIDAK ditemukan.");
 				System.out.println("");
 			} else if (menu==4) {
 				md.lihat(); // memanggil method lihat pada class metod
 			}
 		} while (menu >= 1 && menu < 5);
 	} // end main()
-} // end class tgsPertamaOK
+} // end class prak01_22537141014
