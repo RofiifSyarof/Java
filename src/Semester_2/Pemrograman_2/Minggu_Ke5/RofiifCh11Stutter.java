@@ -6,9 +6,10 @@ package Semester_2.Pemrograman_2.Minggu_Ke5;
  */
 
 import java.util.ArrayList;
+import java.util.List;
 public class RofiifCh11Stutter {
     public static void main(String[] args) {
-        ArrayList<Integer> myList = new ArrayList<Integer>(); 
+        List<Integer> myList = new ArrayList<Integer>(); 
         myList.add(1);
         myList.add(8);
         myList.add(19);
@@ -18,7 +19,7 @@ public class RofiifCh11Stutter {
         stutter(myList);
         System.out.println("list stutter: " + myList);
     }
-    public static void stutter(ArrayList<Integer> myList) {
+    public static void stutter(List<Integer> myList) {
         for (int i = 0; i < myList.size(); i += 2) {
             myList.add(i, myList.get(i));
         }
