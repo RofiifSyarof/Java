@@ -7,7 +7,7 @@ package Semester_2.Pemrograman_2.Minggu_Ke5;
 
 import java.util.ArrayList;
 import java.util.Scanner; 
-public class RofiifCh11removeInRange {
+public class RofiifCh11RemoveInRange {
     public static void main(String[] args) {
         Scanner sken = new Scanner(System.in);
         ArrayList<Integer> myList = new ArrayList<Integer>();
