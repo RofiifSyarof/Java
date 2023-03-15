@@ -25,7 +25,7 @@ class pasien {
 }
 
 public class prak03_22537141014 {
-    static Queue<pasien> antrian = new LinkedList<pasien>(); // membuat queue baru
+    static Queue<pasien> antrian = new LinkedList<pasien>(); // Membuat queue baru
     public static void main(String[] args) {
         int menu;
         while (true) {
@@ -113,7 +113,7 @@ public class prak03_22537141014 {
         String nama = sken.nextLine();
         for (pasien pasienBaru : antrian) {
             if (pasienBaru.getNama().equals(nama)) { // Jika nama pasien ditemukan
-                antrian.remove(pasienBaru);
+                antrian.remove(pasienBaru); // Menghapus pasien dari queue
                 System.out.println("Pasien berhasil dihapus");
             } else { // Jika nama pasien tidak ditemukan
                 System.out.println("Pasien tidak ditemukan");
