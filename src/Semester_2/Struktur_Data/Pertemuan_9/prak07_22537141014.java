@@ -1,3 +1,5 @@
+package Semester_2.Struktur_Data.Pertemuan_9;
+
 /*
  * Muhammad Rofiif Syarof Nur Aufaa
  * 22537141014
