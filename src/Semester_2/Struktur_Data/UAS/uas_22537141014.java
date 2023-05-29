@@ -178,10 +178,10 @@ public class uas_22537141014 {
             System.out.println("1. Masukkan data");
             System.out.println("2. Hapus data");
             System.out.println("3. Tampilkan data");
-            System.out.println("4. Print node leaf");
-            System.out.println("5. Print minimum and maximum values");
-            System.out.println("0. Exit");
-            System.out.print("Enter your menu: ");
+            System.out.println("4. Tampilkan leaf");
+            System.out.println("5. Tampilkan data terendah dan tertinggi");
+            System.out.println("0. Keluar");
+            System.out.print("Pilih menu: ");
             menu = sken1.nextInt();
 
             switch (menu) {
@@ -249,7 +249,7 @@ public class uas_22537141014 {
                     break;
                 case 4:
                     List<Integer> nodeLeaf = tree.getNodeLeaf();
-                    System.out.print("Leaf nodes: ");
+                    System.out.print("Leaf: ");
                     for (int leafNode : nodeLeaf) {
                         System.out.print(leafNode + " ");
                     }
@@ -261,6 +261,7 @@ public class uas_22537141014 {
                     break;
                 case 0:
                     System.out.println("Keluar dari program...");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Input tidak valid. Silakan pilih Menu yang ada.");
