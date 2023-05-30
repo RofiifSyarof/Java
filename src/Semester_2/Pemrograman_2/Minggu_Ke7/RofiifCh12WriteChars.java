@@ -49,5 +49,4 @@ public class RofiifCh12WriteChars {
  * <<**>>
  * <<<*>>>
  * <<<**>>>
- * 
  */
