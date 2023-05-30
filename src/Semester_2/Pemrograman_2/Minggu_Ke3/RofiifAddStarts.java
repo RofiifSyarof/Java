@@ -27,5 +27,5 @@ public class RofiifAddStarts {
 
 /*
  * Output:
- * [the, *, quick, *, brown, *, fox]
+ * [the, *, quick, *, brown, *, fox, *]
  */
