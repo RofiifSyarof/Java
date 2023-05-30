@@ -9,6 +9,7 @@ public class RofiifCh12Substring {
     public static void main(String[] args) {
         System.out.println(substring("hello", 0, 2));
         System.out.println(substring("hamburger", 4, 8));
+        System.out.println(substring("howdy", 3, 3));
     }
 
     public static String substring(String str, int start, int end) {
@@ -31,4 +32,5 @@ public class RofiifCh12Substring {
  * Output:
  * he
  * urge
+ * 
  */
