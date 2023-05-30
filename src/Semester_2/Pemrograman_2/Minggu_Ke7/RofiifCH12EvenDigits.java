@@ -14,21 +14,15 @@ public class RofiifCH12EvenDigits {
     }
     
     public static int evenDigits(int n) {
-        if (Math.abs(n) < 10) {
-            if (n % 2 == 0) {
-                return n;
-            } else {
-                return 0;
-            }
-        }
-
-        int lastDigit = Math.abs(n % 10);
-        int remaining = evenDigits(n / 10);
-        if (lastDigit % 2 == 0) {
-            return remaining * 10 + lastDigit;
-        } else {
-            return remaining;
-        }   
+        if(n == 0)
+            return 0;
+            
+        int last = n % 10;
+        
+        if(last % 2 == 0)
+            return 10 * evenDigits(n / 10) + last;
+        
+        return evenDigits(n / 10);
     }
 }
 
