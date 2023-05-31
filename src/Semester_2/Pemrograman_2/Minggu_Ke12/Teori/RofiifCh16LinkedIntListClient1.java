@@ -73,8 +73,8 @@ public class RofiifCh16LinkedIntListClient1 {
         for (int n : data) {
             list.add(n);
         }
-        System.out.println("Testting: " + list);
-        System.out.println("Result: " + list.hasOddEven());
+        System.out.println("Testing: " + list);
+        System.out.println("Result : " + list.hasOddEven());
         System.out.println();
     }
 }
@@ -83,26 +83,26 @@ public class RofiifCh16LinkedIntListClient1 {
 /*
  * Output:
  * Testing: [38, 40, 24, 4, 3]
- * Result: true
+ * Result : true
  * 
  * Testing: [39, 71, 17, 3, 1]
- * Result: false
+ * Result : false
  * 
  * Testing: [42, 0, 38, 72, 4]
- * Result: false
+ * Result : false
  * 
  * Testing: [1, 3, 2, 5]
- * Result: true
+ * Result : true
  * 
  * Testing: [4, 5]
- * Result: true
+ * Result : true
  * 
  * Testing: [13]
- * Result: false
+ * Result : false
  * 
  * Testing: [2]
- * Result: false
+ * Result : false
  * 
  * Testing: []
- * Result: false
+ * Result : false
  */
